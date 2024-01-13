@@ -21,6 +21,7 @@ public class FlightService {
 
     public List<Flight> findFlightsOneWay(Long departureAirportId, LocalDateTime departureTime, Long arrivalAirportId){
 
+
         return flightRepository.findByDepartureAPIdAndArrivalAPIdAndDepartureTime(departureAirportId,arrivalAirportId,departureTime);
 
     }

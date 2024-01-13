@@ -85,11 +85,11 @@ public class Flight {
         this.departureTime = departureTime;
     }
 
-    public Date getArrivalTime() {
+    public Date getReturnTime() {
         return returnTime;
     }
 
-    public void setArrivalTime(Date returnTime) {
+    public void setReturnTime(Date returnTime) {
         this.returnTime = returnTime;
     }
 
